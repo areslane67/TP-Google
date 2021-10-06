@@ -1,0 +1,127 @@
+
+
+body{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 1.25rem 1.875rem;
+  align-items: center;
+}
+.header a {
+  margin-right: 1.25;
+  color: black;
+  font-size: 0.938rem;
+  text-decoration: inherit;
+}
+.header a:hover {
+  text-decoration: underline;
+}
+.header_right {
+  display: flex;
+  align-items: center;
+  min-width: 13vw;
+  justify-content: space-between;
+
+}
+.header_right .app{
+  margin-right: 0.625rem;
+}
+
+/* Fin de la partie header */
+main p{
+  margin: 0,5rem auto;
+  text-align: center;
+  padding-top: 0,5rem;
+  max-height: 10rem;
+  padding-bottom: 8rem;
+  max-width: 100rem;
+}
+/* Partie principale */
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  margin-top: 6.25rem;
+}
+.main .form-group{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+.main .form-group input{
+  margin-top: 1.25rem;
+  padding:0.938rem;
+  border-radius: 3.125rem;
+  border:1px solid #d1d1d1;
+  outline:none;
+  width: 100%;
+}
+
+.main .form-group label i{
+  float: right;
+  font-size: 1.25rem;
+  margin-top: -2.188rem;
+  margin-right: -0.938rem;
+  position: relative;
+  cursor: pointer;
+  color: #5c5c5c;
+}
+
+.main .buttons{
+  margin-top: 2.5rem;
+}
+.main .buttons button{
+  padding: 0.625rem 1.25rem;
+  background-color: #f0f0f0;
+  border:none; 
+  border-radius: 0.313rem;
+  margin-right: 0.625rem;
+  cursor:pointer;
+  color: #4d4d4d;
+  outline:none;
+}
+div .header_right img{
+  cursor: pointer;
+}
+
+
+
+footer{
+  background-color: #f2f2f2;
+}
+footer hr{
+  font-size: 0.1rem;
+  color: #e3e4e84d;
+}
+footer ul li img{
+  max-width: 5%;
+  transform: translateX(.3rem);
+}
+footer p{
+  color: #262728;
+  padding: 1rem 1rem;
+  
+}
+footer ul{
+  padding: 1rem 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+footer ul li a{
+  padding-left: 1rem;
+  color:#262728d2;
+  
+}
+footer ul .feuil{
+  margin: auto 5rem;
+}
+li,a{
+text-decoration : none;
+list-style: none;
+}
+
